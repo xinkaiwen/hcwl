@@ -1,0 +1,15 @@
+@import url(01_sj.css) screen and (max-width: 750px);
+@import url(01_dn.css) screen and (min-width: 750px);
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+header .navbar {
+  border-radius: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+header .navbar .navbar-toggle .icon-bar {
+  color: #777;
+}

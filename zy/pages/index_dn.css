@@ -1,0 +1,141 @@
+@charset 'utf-8';
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #333;
+  width: 30%;
+  margin-left: 35%;
+}
+.title .s1 {
+  font-size: 35px;
+  color: #ccc;
+}
+.title .s2 {
+  font-size: 20px;
+  color: #ccc;
+}
+.title .s3 {
+  font-size: 35px;
+  color: red;
+}
+.section2 .wrap {
+  background-image: url('../images/about_2_b.jpg');
+  background-size: 100% 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section2 .wrap .total .bj {
+  background-position: 0 -220px;
+}
+.section2 .wrap ul li .t {
+  margin-left: 10%;
+}
+.section4 .wrap .left {
+  padding-right: 3%;
+}
+header .sjd {
+  display: none;
+}
+header img {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+header img:hover {
+  cursor: pointer;
+}
+header .left {
+  width: 40%;
+}
+header .right {
+  width: 55%;
+  position: relative;
+  display: block;
+  margin-right: 0;
+  margin-top: 25px;
+}
+header ul {
+  list-style: none;
+}
+header .u0 {
+  position: absolute;
+  top: 5px;
+  right: 95px;
+  width: 120px;
+  text-align: center;
+  z-index: 11;
+}
+header .u0 > li {
+  color: white;
+  cursor: pointer;
+}
+header .u0 .u0_1 {
+  display: none;
+  margin-top: 5px;
+}
+header .u0 .u0_1 li {
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  background-color: white;
+}
+header .u0 > ul {
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+header .u0 .u0_1 li:hover {
+  color: white;
+  background-color: blue;
+}
+header .u1 {
+  width: 100%;
+  margin-right: 20%;
+  margin-top: 40px;
+}
+header .u1 li {
+  float: left;
+  cursor: pointer;
+  width: 16%;
+}
+header .u1 .l1 {
+  color: #F26D01;
+}
+header .u1 li:hover {
+  color: #F26D01;
+}
+header p {
+  position: absolute;
+  right: 90px;
+  margin-right: 0px;
+  top: 20px;
+}
+header span {
+  font-size: 14px;
+}
+header .s1 {
+  position: absolute;
+  color: #F26D01;
+  right: 110px;
+  width: 100px;
+}
+header .s0 {
+  right: 200px;
+  width: 100px;
+}
+header .s2 {
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  display: inline-block;
+  width: 120px;
+  height: 28px;
+  color: white;
+  border-radius: 3px;
+  background-color: #F26D01;
+}
+header .s0,
+.s1 {
+  position: absolute;
+  top: -15px;
+}

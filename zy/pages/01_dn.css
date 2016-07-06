@@ -1,0 +1,43 @@
+@charset 'utf-8';
+header .navbar .left {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header .navbar .right {
+  margin-top: 10px;
+}
+header .navbar .right .top select {
+  width: 120px;
+  background-color: orange;
+  border: none;
+  color: white;
+  height: 25px;
+  border-radius: 2px;
+}
+header .navbar .right .top select option {
+  background-color: white;
+  color: black;
+}
+header .navbar .right .top select option:hover {
+  color: white;
+}
+header .navbar .right .top .s2 {
+  color: orange;
+}
+header .navbar .right .nav {
+  width: 100%;
+  border: 1px solid;
+  margin-right: -50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+header .navbar .right .nav a {
+  color: #333;
+}
+header .navbar .right .nav .active {
+  color: orange;
+}
+header .navbar .right .nav a:hover {
+  background-color: white;
+  color: orange;
+}
